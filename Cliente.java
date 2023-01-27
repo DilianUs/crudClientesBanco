@@ -5,6 +5,11 @@ public class Cliente {
     private String SaldoCliente;
 
     public Cliente() {
+        this.NumeroCliente=null;
+        this.NombreCliente=null;
+        this.NumeroCuenta=null;
+        this.SaldoCliente=null;
+
     }
 
 

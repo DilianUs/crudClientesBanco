@@ -82,8 +82,9 @@ public class Validaciones {
     }
 
     public boolean validarSaldo(Cliente cliente){
-        float saldoCliente;
+         float saldoCliente;
         try {
+           
             saldoCliente = Float.parseFloat(cliente.getSaldoCliente()) ;
             return true;
         } catch (Exception e) {
