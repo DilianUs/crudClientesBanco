@@ -1,3 +1,5 @@
+
+
 public class Validaciones {
     private final int TAMANO_NUM=16;
     public boolean validarClienteNuevo(Cliente cliente){

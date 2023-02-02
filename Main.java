@@ -7,6 +7,8 @@ import java.util.ArrayList;
  * description: Imprimir datos de clientesde un banco, guardados en un documento de texto
  */
 
+
+
 public class Main {
     public static void main(String[] args) {
         LectorArchivos lector = new LectorArchivos();
@@ -22,7 +24,7 @@ public class Main {
         clienteNuevo.setNumeroCliente("1234567891232343");
         clienteNuevo.setNombreCliente("Jose Adrian Us Medina");
         clienteNuevo.setNumeroCuenta("1232343454534522");
-        clienteNuevo.setSaldoCliente("1.5");
+        clienteNuevo.setSaldoCliente("1.6");
         
         if(verificador.validarClienteNuevo(clienteNuevo)){
             write.anadirCliente("clientes_Banco.txt", clienteNuevo);
